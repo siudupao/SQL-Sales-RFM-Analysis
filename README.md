@@ -13,7 +13,7 @@ Structure
 --
 The project is divided into three sections.
 
-Section A - Data Cleaning
+Section A - Data Cleaning - 
 Before jumping right into the analysis, I inspected the data to ensure that the data was correct, consistent and usable. 
 - Normalized Sales_Channel column (ie. converted 'Whole#_sale' to 'Wholesale') 
 - Populated NULL OrderDate
@@ -22,13 +22,13 @@ Before jumping right into the analysis, I inspected the data to ensure that the 
 - Corrected negative Order_Quantity
 - Populated NULL Discount_Applied 
 
-Section B - Data Exploring
+Section B - Data Exploring - 
 Conducted a quick exploration of the data. 
 - Created a new Revenue column for easier analysis
 - Explored Sales Data by Sales_Channel and Year
 - Explored Top 5 products generating the most revenue
 
-Section C - RFM Analysis 
+Section C - RFM Analysis - 
 Performed RFM Analysis using CTEs and Temp Tables
 - Calculated the three measures: Recency, Frequency and Monetary Value
 - Segmented clients into quartiles/buckets according to their RFM measures
